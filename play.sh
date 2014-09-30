@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -lt 3 ]; then
-    echo "Usage: $0 tempo freq dur [freq dur freq dur...]" >&2
+    ./$0 `gcc test.c && ./a.out`
     exit 1
 fi
 
